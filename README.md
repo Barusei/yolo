@@ -1,5 +1,5 @@
 # Overview
-This project involved the containerization and deployment of a full-stack yolo application using Docker.
+This project involved the containerization and deployment of a full-stack yolo application using Docker, configuration using ansible and vagrant boxes.
 
 #Containerization of the front-end 
 docker network barusei-network and baruseivolume which will be used by both front-end and backend containers

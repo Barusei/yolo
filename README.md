@@ -1,15 +1,18 @@
 # Overview
-This project involved the containerization and deployment of a full-stack yolo application using Docker.
-
-
-# Requirements
-Install the docker engine here:
-- [Docker](https://docs.docker.com/engine/install/) 
-
-## How to launch the application 
-
-
-![Alt text](image.png)
-
-## How to run the app
+This project involved the virtualization and deployment of a full-stack yolo application 
+Ensure the following tools are installed -vagrant, virtualbox, ansible and git & github
+Clone the Repository
+# Start the Virtual Machine
+vagrant init ubuntu/trusty64
+#run virtual box
 Use vagrant up --provison command
+# Run Ansible Playbook
+ansible-playbook -i ansible/inventory/hosts.ini ansible/playbook.yml
+
+# Run Docker Compose
+docker-compose up --build
+# Configuration Files
+  inventory File (ansible/inventory/hosts.ini)
+  # Defines the target hosts for Ansible.
+  Playbook File 
+  # Defines tasks for setting up and deploying the application.

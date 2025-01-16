@@ -6,6 +6,8 @@ Clone the Repository
 vagrant init ubuntu/trusty64
 #run virtual box
 Use vagrant up --provison command
+vagrant reload --to reload virtualbox after changes e.g in specs
+vagrant ssh --to ssh into the virualbox
 # Run Ansible Playbook
 ansible-playbook -i ansible/inventory/hosts.ini ansible/playbook.yml
 

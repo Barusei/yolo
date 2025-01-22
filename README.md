@@ -1,7 +1,7 @@
 # Overview
-This project involved the virtualization and deployment of a full-stack yolo application 
+This project involved the virtualization and deployment of a full-stack yolo application project
 Ensure the following tools are installed -vagrant, virtualbox, ansible and git & github
-Clone the Repository
+Clone the Repository--git clone https://github.com/Barusei/yolo
 # Start the Virtual Machine
 vagrant init ubuntu/trusty64
 #run virtual box

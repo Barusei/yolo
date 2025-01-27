@@ -18,3 +18,10 @@ docker-compose up --build
   # Defines the target hosts for Ansible.
   Playbook File 
   # Defines tasks for setting up and deploying the application.
+
+
+# container orchestration
+  container orchestration tool used in this project is kubernetes 
+  deployment.yaml used for setting of replicaset and the number of pod replicas to be created 
+  service.yaml is used in managing connection to the pods using clusterIP, service IPs and even controls load balancing to the pods
+  

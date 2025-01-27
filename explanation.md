@@ -60,3 +60,6 @@ Ansible is used to automate the deployment and management of the Dockerized e-co
     Hosts: Targeting all ensures flexibility, but for a production setup, you might want to target specific groups (e.g., frontend, backend, database) from your inventory.
     Become: Elevating privileges (become: true) is necessary for tasks like installing Docker or managing services.
     Roles: Modularized roles (frontend-deployment, setup-mongodb, backend-deployment) make the playbook easy to maintain and extend.
+
+# manifest directory
+    creation of deployment and service yaml files will enable the deployment of the app in kubernetes for container orchestration and management of networking and loadbalancing of traffic to the pods
